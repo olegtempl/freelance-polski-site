@@ -1,0 +1,33 @@
+include head/head.pug
+	body
+		//- header
+    header
+			include templates/header.pug
+		//- main content
+    main
+      .galery
+				figure
+					img(src="img/slipsole.jpg", width='480', height='270', alt='Slipsole')
+					figcaption Slipsole
+				figure
+					img(src='img/cups.jpg', width='480', height='270', alt='Cups')
+					figcaption Cups
+				figure				
+					img(src='img/baskets.jpg', width='480', height='270', alt='Baskets')
+					figcaption Baskets
+				figure
+					img(src='img/caskets.jpg', width='480', height='270', alt='Caskets')
+					figcaption Caskets
+				figure
+					img(src='img/headbands.jpg', width='480', height='270', alt='Headbands')
+					figcaption Headbands
+				figure
+					img(src='img/bastshoes.jpg', width='480', height='270', alt='Bast shoes')
+					figcaption Bast shoes
+		//- footer
+		footer	
+			include templates/footer.pug
+    //- jQuery 			
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js')
+    //- script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js', integrity='sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7', crossorigin='anonymous')
+
