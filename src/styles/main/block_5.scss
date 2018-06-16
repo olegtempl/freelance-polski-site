@@ -1,0 +1,299 @@
+/* 
+			block_5
+*/
+
+/* 
+
+
+			выправить в одну строку party number
+*/
+.block_5 {
+	height : 710px;
+	background: url(../image/block_5/bg.jpg) no-repeat;
+	background-size: 100%; 
+	padding: 100px 287px 100px 217px;
+	display: flex;
+	justify-content: space-between;
+
+	aside {
+		width: 570px;
+		display: flex;
+		justify-content: space-between;
+	}
+	.block_5-article {
+		width: 430px;
+
+
+		h2 {
+				font-size: 36px;
+				font-family: "YesevaOne";
+				color: rgb(204, 153, 0);
+				line-height: 0.667;
+				text-align: center;
+				height: 35px;
+		}
+		.decoration {
+			margin: 24px 0 34px 94px;
+
+		}
+		p {
+				font-size: 16px;
+				font-family: "Lato";
+				color: rgb(76, 76, 76);
+				line-height: 1.5;
+				text-align: center;
+				width: 417px;
+				height: 56px;
+				margin-bottom: 56px;
+		}
+		p.first { 
+			margin: 0 16px 0 16px;
+		}
+		p.second {
+			margin: 0 8px 0 8px;
+	
+		}
+		.name {
+			margin-bottom: 33px;
+
+		}
+		.email {
+			margin-bottom: 33px;
+
+		}
+
+		form {
+		width: 100%;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		flex-wrap: wrap;
+		align-items: flex-start;
+			.btn {
+				margin-left: 115px;
+								
+				input[type="submit"] {
+					font-size: 16px;
+					font-family: "OpenSans";
+					color: rgb(255, 255, 255);
+					line-height: 1.2;
+					text-align: center;
+					border-width: 1px;
+					border-color: rgb(200, 159, 45);
+					border-style: solid;
+					background-color: rgba(200, 159, 45, 0.98);
+			}
+			}
+
+			fieldset {
+				display: flex;
+				flex-direction: row;
+				// justify-content: center;
+				flex-wrap: nowrap;
+				align-items: flex-start;
+				margin-bottom: 33px;
+
+			}
+
+			legend {
+				font-size: 14px;
+				font-family: "OpenSans";
+				color: rgb(201, 161, 49);
+				font-weight: bold;
+				line-height: 1.2;
+				text-align: left;
+				margin-bottom: 12px;
+				width: 96px;
+				height: 14px;
+			}
+			
+			/* 
+			
+					inputs
+			*/
+
+			input[type], input[name] {
+				border-width: 1px;
+				border-color: rgb(200, 198, 198);
+				border-style: solid;
+				background-color: rgba(255, 255, 255, 0.4);
+				min-height: 33px;
+				max-width: 200px;
+				width: 200px;
+				margin-right: 30px;
+
+			}
+			input[type]:focus , input[type]:hover {
+				border: 1px solid rgb(201, 161, 49) ;
+			}
+			input[placeholder] {
+				font-size: 16px;
+				font-family: "OpenSans";
+				color: rgb(124, 124, 124);
+				font-style: italic;
+				line-height: 1.2;
+				text-align: center;
+				width: 99px;
+				height: 17px;
+			}
+			// input text
+			input[type="text"] {
+
+				width: 200px;
+				float:left;
+
+			}
+			// input date
+			input[type="date"] {
+				min-height: 33px;
+				max-width: 200px;
+				width: 200px;
+				margin-right: 30px;
+
+			}
+
+			// input number
+			input[type=number]{
+				-moz-appearance: textfield;
+			}
+			/* 
+				delete the default 
+			*/
+			input[type=number]::-webkit-inner-spin-button,
+			input[type=number]::-webkit-outer-spin-button {
+				-webkit-appearance: none;
+				-moz-appearance: none;
+				appearance: none;
+				margin: 0;
+			}
+			input[name="number"] {
+
+				width: 200px;
+				min-width: 200px;
+			}
+
+
+		}
+	}
+
+
+}
+
+// //   party number
+//   .icon {
+// 	font-size: 13px;
+// 	font-family: "FontAwesome";
+// 	color: rgb(124, 124, 124);
+// 	line-height: 1.2;
+// 	position: absolute;
+// 	left: 1292.044px;
+// 	top: 4482.7px;
+// 	z-index: 76;
+//   }
+//   .placeholder {
+// 	font-size: 16px;
+// 	font-family: "OpenSans";
+// 	color: rgb(124, 124, 124);
+// 	font-style: italic;
+// 	line-height: 1.2;
+// 	text-align: left;
+// 	width: 99px;
+// 	height: 17px;
+
+//   }
+//   .input_ {
+// 	border-width: 1px;
+// 	border-color: rgb(200, 198, 198);
+// 	border-style: solid;
+// 	background-color: rgba(255, 255, 255, 0.4);
+//   }
+//   .label_ {
+// 	font-size: 14px;
+// 	font-family: "OpenSans";
+// 	color: rgb(201, 161, 49);
+// 	font-weight: bold;
+// 	line-height: 1.2;
+// 	text-align: left;
+// 	position: absolute;
+//   }
+
+//   // date ??
+//   .icon {
+// 	font-size: 13px;
+// 	font-family: "FontAwesome";
+// 	color: rgb(124, 124, 124);
+// 	line-height: 1.2;
+//   }
+//   .placeholder {
+// 	font-size: 16px;
+// 	font-family: "OpenSans";
+// 	color: rgb(124, 124, 124);
+// 	font-style: italic;
+// 	line-height: 1.2;
+// 	text-align: left;
+// 	position: absolute;
+//   }
+//   .input_ {
+// 	border-width: 1px;
+// 	border-color: rgb(200, 198, 198);
+// 	border-style: solid;
+// 	background-color: rgba(255, 255, 255, 0.4);
+// 	height: 34px;
+// 	z-index: 68;
+//   }
+//   .label_ {
+// 	font-size: 14px;
+// 	font-family: "OpenSans";
+// 	color: rgb(201, 161, 49);
+// 	font-weight: bold;
+// 	line-height: 1.2;
+// 	text-align: left;
+// // email
+//   .placeholder {
+// 	font-size: 16px;
+// 	font-family: "OpenSans";
+// 	color: rgb(124, 124, 124);
+// 	font-style: italic;
+// 	line-height: 1.2;
+// 	text-align: left;
+//   }
+//   .input {
+// 	border-width: 1px;
+// 	border-color: rgb(200, 198, 198);
+// 	border-style: solid;
+// 	background-color: rgba(255, 255, 255, 0.4);
+//   }
+//   .label {
+// 	font-size: 14px;
+// 	font-family: "OpenSans";
+// 	color: rgb(201, 161, 49);
+// 	font-weight: bold;
+// 	line-height: 1.2;
+// 	text-align: left;
+//   }
+
+// //   name
+//   .placeholder {
+// 	font-size: 16px;
+// 	font-family: "OpenSans";
+// 	color: rgb(124, 124, 124);
+// 	font-style: italic;
+// 	line-height: 1.2;
+// 	text-align: left;
+//   }
+//   .input {
+// 	border-width: 1px;
+// 	border-color: rgb(200, 159, 45);
+// 	border-style: solid;
+// 	background-color: rgba(255, 255, 255, 0.4);
+//   }
+//   .label {
+// 	font-size: 14px;
+// 	font-family: "OpenSans";
+// 	color: rgb(201, 161, 49);
+// 	font-weight: bold;
+// 	line-height: 1.2;
+// 	text-align: left;
+//   }
+  

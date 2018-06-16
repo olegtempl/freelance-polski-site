@@ -1,0 +1,83 @@
+/* 
+			block_2
+*/
+.block_2 {
+	height: 758px;
+	background: url("/image/block_2/bg_2.jpg") no-repeat;
+	background-size: 100%; 
+	padding: 100px 217px 100px 815px;
+
+	 .block_2-article {
+		width: 570px;
+		max-height: 557px;
+		padding: 90px 70px 77px 70px;
+		background-color:  rgba(0 , 0 , 0, 0.5); ;
+
+
+		 article {
+			 
+			h2 {
+				font-size: 36px;
+				font-family: "YesevaOne";
+				color: rgb(255, 255, 255);
+				line-height: 1.2;
+				text-align: center;
+				width: 430px;
+				// height: 92px;
+				margin:  0 auto;
+			}
+			 .decoration {
+				 margin: 16px 92px 30px 162px;
+				
+			}
+			p {
+				font-size: 16px;
+				font-family: "Lato";
+				color: rgb(255, 255, 255);
+				line-height: 1.5;
+				text-align: center;
+				max-width: 430px;
+				max-height: 145px;
+				min-height: 130px;
+				margin: 0px auto;  
+			}
+			 figure {
+
+				display: flex;
+				align-items: center;
+				align-content: center; 
+				justify-content: space-around;
+				
+				margin-top: 73px ;
+				max-height: 100px;
+				// padding-right: 99px;
+				// .first-ingredient , .second-ingredient ,.last-ingredient {
+				// 	margin: 15,5px;
+				// }
+				.first-ingredient img, .second-ingredient img,.last-ingredient img {
+					border: 5px solid #636362;
+					border-radius: 50%;
+					height: 100px;
+					max-width: 100px;
+					// margin: 0 auto;
+				}
+
+				.first-ingredient {
+					// margin-right: 15,5px;
+					margin-left: 98px;
+				}
+				.second-ingredient {
+					margin: 0 15,5px 0 15,5px;
+				}
+				 .last-ingredient {
+					// margin-right: 15,5px;
+
+				}
+			}
+		}
+
+	}
+	
+}
+
+

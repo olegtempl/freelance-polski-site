@@ -1,0 +1,184 @@
+/* 
+			block_3
+*/
+/* 
+
+	центровать рюшки в правом меню	
+
+*/
+/* 
+            appetisers
+*/
+.block_3 {
+	// height: 994px;
+	background: url(../image/block_3/bg_3.png) repeat;
+	padding: 0 280px ;
+	min-height: 994px;
+	max-height: 1000px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	
+	h2 {
+		font-size: 36px;
+		font-family: "YesevaOne";
+		color: rgb(204, 153, 0);
+		line-height: 0.667;
+		text-align: center;
+	}
+
+
+	/* 
+					always menu item
+	*/
+	.block_3-menu-item , .block_3-menu-item-special {
+		margin-bottom: 45px;
+
+	}
+	.block_3-menu-item article , .block_3-menu-item-special article  {
+		width: 100%;
+		max-height: 129px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+
+		.line {
+			height: 1px;
+			width: 98%;
+     		border-style: solid;
+			background-color: #e5d8ad;
+			margin-top: 15px;
+			margin-bottom: 17px;
+			margin-left: 4px;
+		}
+
+		h3 {
+			font-size: 21px;
+			font-family: "YesevaOne";
+			color: rgb(200, 159, 45);
+			line-height: 1.143;
+			text-align: justifyAll;
+			flex: 1;
+	}
+
+		p {
+
+		}
+		.price {
+			font-size: 21px;
+			font-family: "YesevaOne";
+			color: rgb(200, 159, 45);
+			line-height: 1.143;
+			text-align: justifyAll;
+		}
+
+	
+		}
+		/* 
+				special menu item
+		*/
+
+		.special {
+			width: 100%;
+			display: flex;
+			justify-content: flex-end;
+
+		}
+		.special-span {
+			background-color: rgb(200, 159, 45);
+			color: #f8fafa;
+			min-height: 22px;
+			min-width: 69px;
+			order: 0;
+			text-align: center;
+			padding: 2px;
+		
+		}	
+	.block_3-menu-item-special {
+		border: 1px solid #e5d8ad;
+
+		}
+
+	/* 
+					LEFT MENU 
+	*/
+	.left-menu {
+		// display: flex;
+		// width: 430px;
+		height: 793px;
+		margin-right: 170px;
+		height: 800px;
+		min-width: 432px;
+		// overflow: hidden;
+		flex-grow: 1;
+
+		.decoration {
+			margin-top: 22px ;
+			margin-left: 97px; 
+			margin-bottom: 38px;
+		}
+		h2 {
+			font-size: 36px;
+			font-family: "YesevaOne";
+			color: rgb(204, 153, 0);
+			line-height: 0.667;
+			text-align: center;
+		}
+		/* 
+				appetisers
+		*/
+		.block_3-appetisers {
+	
+		
+		}
+		/* 
+					salads
+		*/
+		.block_3-salads {
+
+	
+		}
+	/* 
+					RIGHT MENU 
+	*/
+	.right-menu {
+
+
+
+
+		max-width: 430px;
+		height: 793px;
+		max-height: 800px;
+		// float: right;
+		min-width: 432px;
+		overflow: hidden;
+		flex-grow: 1;
+
+
+		h2 {
+			font-size: 36px;
+			font-family: "YesevaOne";
+			color: rgb(204, 153, 0);
+			line-height: 0.667;
+			text-align: center;
+		}
+
+		/* 
+					starters
+		*/
+		.block_3-starters {
+	
+			}
+		/* 
+					main-dishes
+		*/
+		.block_3-main-dishes {
+
+		}
+
+		}
+	}
+
+}
+
+
