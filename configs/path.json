@@ -1,0 +1,50 @@
+{
+   "src": {
+      "pug": "src/pug/**/*.pug",
+      "js": "src/js/",
+      "scss": "src/styles/**/*.scss",
+      "images": "src/images/",
+      "fonts": "src/fonts/"
+   },
+   "build": {
+      "html": "build/",
+      "js": "build/js/",
+      "css": "build/styles/",
+      "images": "build/images/**/*",
+      "fonts": "build/fonts/**/*"
+   },
+   "prodaction": {
+      "html": "prodaction/",
+      "js": "prodaction/js/",
+      "css": "prodaction/styles/",
+      "images": "prodaction/images/",
+      "fonts": "prodaction/fonts/",
+      "uncssHTML": "prodaction/**/*.html"
+   },
+   "watch": {
+      "pug": "src/pug/**/*.pug",
+      "js": "src/js/**/*.js",
+      "scss": "src/styles/**/*.scss",
+      "images": "src/images/**/*",
+      "fonts": "src/fonts/**/*"
+   },
+   "tests": {
+      "mocha": "test/mocha/spec.js"
+   },
+   "validation": {
+      "html": "build/*.html",
+      "css": "build/styles/index.css",
+      "js": "src/js/**/*.js",
+      "jsFixedLinterOutput": "src/js/"
+   },
+   "configs": {
+      "jsDoc": "./configs/jsDoc.json",
+      "babel": "./configs/babel.json",
+      "serverLive": "./configs/serverLivereload.json",
+      "serverTunnel": "./configs/serverTunnel.json"
+   },
+   "docs": {
+      "jsDoc": "docs/jsDoc/README.md"
+   }
+}
+
