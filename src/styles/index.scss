@@ -1,17 +1,6 @@
+// custom library
+@import 'variables_custom';
+// Add library
+@import 'library';
+@charset 'UTF-8';
 
-@import 'header/reset';
-@import 'header/header';
-/* 
-            main
-*/
-@import 'main/block_promo';
-@import 'main/gallery';
-// @import 'main/block_1';
-// @import 'main/block_2';
-// @import 'main/block_3';
-// @import 'main/block_4';
-// @import 'main/block_5';
-/* 
-            footer
-*/
-@import 'footer/footer';

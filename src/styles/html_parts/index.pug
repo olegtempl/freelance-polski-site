@@ -1,0 +1,54 @@
+doctype html
+html(lang='ru')
+	head
+		title Victorya, easy and simple, in memory forever.
+		meta(charset='utf-8')
+		meta(name='viewport', content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0')
+		//  CSS stylesheets
+		link(rel='stylesheet', type='text/css', media='all', href='styles/victorya.min.css')
+		// Font
+		link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Lato:400,700,300', type='text/css')
+		//  icons
+		link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css')
+	body
+		| //- НАЧАЛО ГЛАВНОГО МЕНЮ
+		main
+			.container
+			//- сюда ВСТАВЛЯЮТЬСЯ БЛОКИ
+			
+			
+<!-- DEFAULT_BASIC ELEMENTS -->
+			include default_elements/text.pug
+			include default_elements/buttons.pug
+			include default_elements/typography_sizes.pug
+			include default_elements/forms.pug
+			include default_elements/tables.pug
+			include default_elements/tabs.pug
+			include default_elements/tags.pug
+			include default_elements/pagination.pug
+			include default_elements/badges.pug
+			include default_elements/raiting.pug
+			include default_elements/images.pug
+			include default_elements/aligners.pug
+			include default_elements/loaders.pug
+			include default_elements/colors.pug
+			include default_elements/full_width_bars.pug
+			include default_elements/message_bars.pug
+			include default_elements/containers.pug
+			include default_elements/borders.pug
+
+
+
+			<!-- CUSTOM ELEMENTS -->
+			include custom_elements/citate.pug
+
+
+
+			include default_elements/js_no_touch.pug
+
+			
+			
+			
+			
+			| //- КОНЕЦ ГЛАВНОГО МЕНЮ
+

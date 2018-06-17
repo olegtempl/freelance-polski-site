@@ -1,0 +1,126 @@
+//=====================================
+//
+//                MAIN
+//
+//=====================================
+// @import 'default-main.scss';
+@import 'gallery.scss';
+/*
+  VARIABLES_MAIN
+*/
+
+
+
+
+
+
+/*
+  STYLES_MAIN
+*/
+main {
+  padding: 100px ;
+  margin-bottom: 100px;
+  .contacts-wrap {
+    display: flex;
+    justify-content: space-between;
+    aside {
+      text-align: center;
+      .address {
+      }
+      .contacts {
+      }
+    }
+  }
+}
+
+img {
+  border-radius: 15px;
+}
+.gallery {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: stretch;
+  img {
+    width: 480px;
+    height: 270px;
+  }
+  img:hover {
+    box-sizing: border-box;
+    border: 4px solid $color-info;
+    border-radius: 15px;
+  }
+  figcaption {
+    font-size: 65px;
+  }
+  figure {
+    margin-bottom: 55px;
+  }
+
+}
+
+.place-order {
+  margin-top: 50px;
+  padding-left: 7%;
+  // text-align: center;
+  /* Стили для формы */
+  .form_box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+  }
+  label {
+    font-size: 16px;
+    width: 65%;
+    color: #18232f;
+    // font-weight: bold;
+    display: block;
+    text-align: center;
+  }
+  .form_box input {
+    width: 65%;
+    height: 45px;
+    border: 2px solid #cfcfcf;
+    font-size: 14px;
+    color: #444444;
+    padding: 7px 7px 8px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    margin-bottom: 13px;
+  }
+  .form_box input:focus {
+    outline: none;
+    border-color: #07a6e6;
+  }
+  .form_box .btn_submit {
+    margin-top: 20px;
+    border: none;
+    width: 180px;
+    text-align: center;
+    background: $brand-primary;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    height: 55px;
+    line-height: 28px;
+    padding: 0;
+    display: block;
+    margin-left: 6%;
+    border-radius: 25px;
+  }
+  .form_box .btn_submit:hover {
+    background: rgba(26, 188, 156, 0.8);;
+  }
+  .form_box .btn_submit:active {
+    box-shadow: inset 0 2px 2px rgba(0,0,0,0.2);
+  }
+  .form_box .btn_submit.disabled,
+  .form_box .btn_submit.disabled:hover {
+    background: #afdde6;
+    cursor: default;
+  }
+}

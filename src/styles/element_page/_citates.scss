@@ -1,0 +1,91 @@
+//
+//        CITATE
+//
+// цвет заголовка цитаты
+$color-text-title-citate: #abf10f;
+// цвет текста цитаты
+$color-text-citate: #0ff14c;
+// цвет бордера цитаты
+$color-bdr-citate: #1658b1;
+
+
+#citate {
+ height:150px;
+ width:370px;
+ border: 1px solid $color-bdr-citate;
+ margin:  100px auto;
+ position:relative;
+ color:$color-text-citate;
+ padding:15px;
+
+	
+	span {
+// нужно для сокрытия общего бордера
+  background: $color-bg-body;
+  color: $color-text-title-citate;
+  padding:0 10px;
+  position:relative; 
+  top:-28px;
+	}
+	
+	.corner {
+	  height:30px;
+	  width:30px;
+	  border-radius:50%;
+	  border:1px solid #fff;
+	  transform:rotate(-45deg);  
+	  position:absolute;
+	  background: $color-bg-body;
+	}
+
+	#left_top{
+	  top:-16px;
+	  left:-16px;
+	  border-color:transparent transparent $color-bdr-citate transparent;
+	}
+	#right_top{
+	  top:-16px;
+	  right:-16px;
+	  border-color:transparent transparent transparent $color-bdr-citate;
+	}
+	#left_bottom{
+	  bottom:-16px;
+	  left:-16px;
+	  border-color:transparent $color-bdr-citate transparent transparent ;
+	}
+	#right_bottom{
+	  bottom:-16px;
+	  right:-16px;
+	  border-color:$color-bdr-citate transparent transparent transparent;
+	}
+	p {
+	padding-top:13px;
+	}
+ }
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Monoton|Rokkitt');
+
+
+// Цвет текст по диагонали
+$color-text-grade-citate: $color-error;
+
+blockquote .grades-citate {
+ font-family: "Rokkitt";
+ line-height: .8;
+}
+
+.grade {
+ font-family: "Monoton";
+ text-transform: uppercase;
+ font-gradeyle: normal; 
+ color: $color-text-grade-citate;
+ border-bottom:1vw double  $color-text-grade-citate;
+ display: block;
+ transform:rotate(-5deg);
+ line-height: .9;
+}
+
+

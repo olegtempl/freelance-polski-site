@@ -1,0 +1,63 @@
+section.section
+    h2.text-md Aligners
+    div
+        h3.text-sm.text-gray Space between
+        .container.background-gray
+            .section
+                .aligner-space-between
+                    div
+                        img(src='img/img4.jpg', alt='Image 4', width='150')
+                    div
+                        img(src='img/img5.jpg', alt='Image 5', width='150')
+    h3.text-sm.text-gray Space around
+    .container.background-gray
+        .section
+            .aligner-space-around
+                div
+                    img(src='img/img6.jpg', alt='Image 6', width='150')
+                div
+                    img(src='img/img5.jpg', alt='Image 5', width='150')
+                div
+                    img(src='img/img1.jpg', alt='Image 1', width='150')
+                div
+                    img(src='img/img2.jpg', alt='Image 2', width='150')
+    .section.row
+        .col-xs-12.col-md-6
+            h3.text-sm.text-gray Align start
+            .container.background-gray
+                .section
+                    .content-start
+                        div
+                            img(src='img/img1.jpg', alt='Image 1', width='150')
+        .col-xs-12.col-md-6
+            h3.text-sm.text-gray Align end
+            .container.background-gray
+                .section
+                    .content-end
+                        div
+                            img(src='img/img3.jpg', alt='Image 3', width='150')
+    .row
+        .col-xs-12.col-md-4
+            h3.text-sm.text-gray Center vertical
+            .container.background-gray
+                .section
+                    .aligner-center-vertical(style='height:150px;')
+                        p.text-dark.no-margin Lorem ipsum dolor sit amet
+        .col-xs-12.col-md-4
+            h3.text-sm.text-gray Center vertical and horitzontal
+            .container.background-gray
+                .section
+                    .aligner-center-horitzontal.aligner-center-vertical(style='height:150px;')
+                        p.text-dark.no-margin Lorem ipsum dolor sit amet
+        .col-xs-12.col-md-4
+            h3.text-sm.text-gray Align to bottom
+            .container.background-gray
+                .section
+                    .aligner(style='height:150px;')
+                        p.text-dark.no-margin.aligner-item-bottom Lorem ipsum dolor sit amet
+section.section
+    h2.text-md Low opacity
+    .container.background-gray.opacity-low
+        .section
+            .aligner-center-horitzontal.aligner-center-vertical(style='height:150px;')
+                img(src='img/img1.jpg', alt='Image 1', width='150')

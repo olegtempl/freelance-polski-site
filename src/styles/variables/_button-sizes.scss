@@ -1,0 +1,39 @@
+//
+//		VARIABLES_BUTTON-SIZES	
+//
+
+
+// так же сменить в файле /elements_page/_buttons.scss имена размеров
+
+$button-sizes: (
+  'sm': (
+    fontSize: 12px,
+    lineHeight: 1.5,
+    paddingTB: 10px,
+    paddingLR: 20px
+  ),
+  'md': (
+    fontSize: 16px,
+    lineHeight: 1.5,
+    paddingTB: 10px,
+    paddingLR: 30px
+  ),
+  'xs': (
+    fontSize: 11px,
+    lineHeight: 1.273,
+    paddingTB: 6px,
+    paddingLR: 20px
+  ),
+  'lg': (
+    fontSize: 16px,
+    lineHeight: 1.5,
+    paddingTB: 15px,
+    paddingLR: 30px
+  ),
+  'hugeLg': (
+    fontSize: 18px,
+    lineHeight: 1.5,
+    paddingTB: 18px,
+    paddingLR: 50px
+  )
+);

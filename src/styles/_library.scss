@@ -1,0 +1,52 @@
+/*
+  Library
+*/
+//=====================================
+//
+//				ELEMENTS_IN_PAGE
+//
+//=====================================
+// там мои стили перделки для украшения фрэймоворка
+@import 'element_page/utils/my_beatify_elements';
+// defaults
+@import 'element_page/utils/mixins';
+@import 'element_page/placeholders';
+@import 'element_page/vendor/reset';
+@import 'element_page/background-colors';
+@import 'element_page/badges';
+@import 'element_page/buttons';
+@import 'element_page/forms';
+@import 'element_page/helpers';
+@import 'element_page/layout';
+@import 'element_page/loading-bar';
+@import 'element_page/loading-spinner';
+@import 'element_page/message-bars';
+@import 'element_page/paginator';
+@import 'element_page/rating-circle';
+@import 'element_page/tables';
+@import 'element_page/tabs';
+@import 'element_page/tags';
+@import 'element_page/nav';
+@import 'element_page/typography';
+@import 'element_page/citates';
+
+// @import 'element_page/';
+
+// Flexbox based grid. More info: https://github.com/kristoferjoseph/flexboxgrid
+// @import 'element_page/flexboxgrid';
+// Twitter bootstrap's grid. More info: https://getbootstrap.com/examples/grid/
+@import 'element_page/bootstrapgrid';
+//=====================================
+//
+//				BLOCKS(SECTION)_PAGE
+//
+//=====================================
+@import 'blocks_page/header/header';
+@import 'blocks_page/sidebar/sidebar';
+@import 'blocks_page/main/main';
+@import 'blocks_page/footer/footer';
+// @import 'blocks_page/';
+
+
+
+

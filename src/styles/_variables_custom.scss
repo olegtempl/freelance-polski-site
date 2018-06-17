@@ -1,0 +1,141 @@
+//=====================================
+//
+//				BACKGROUND_COLORS
+//
+//=====================================
+//      background-colors_blocks_in_page
+//  body
+$color-bg-body:                 #dee6ea;
+//  header
+$color-bg-header:               #2e4865;
+$color-bg-nav:                  #2e4865;
+//  sidebar
+$color-bg-sidebar:              #2e4865;
+//  main
+$color-bg-main:                 #2e4865;
+//  footer
+$color-bg-footer:               #2e4865;
+//=====================================
+//
+//				BRAND_COLORS
+//
+//=====================================
+//      Brand colors
+$brand-primary:         #1abc9c;
+$brand-secondary:       #9b59b6;
+$brand-dark:            #18232f;
+$brand-light:           #34495e;
+//       State colors
+$color-success:         #4caf50;
+$color-info:            #5bc0de;
+$color-warning:         #f0ad4e;
+$color-error:           #e74c3c;
+//       Usual colors
+$gray:                  #dee6ea;
+$gray-light:            #edf3f6;
+$deep-blue:             #171722; // Deprecated
+$white:                 #ffffff;
+//      Background colors MAP
+$background-color-map: (
+  'primary':              $brand-primary,
+  'dark':                 $brand-dark,
+  'secondary':            $brand-secondary,
+  'white':                $white,
+  'success':              $color-success,
+  'info':                 $color-info,
+  'warning':              $color-warning,
+  'error':                $color-error,
+  'gray':                 $gray,
+  'gray-light':           $gray-light
+);
+// Borders-color
+$border-color:          #465f78;
+// Shadows-color
+$shadow-color:          rgba(0, 0, 0, .2);
+$box-shadow:            0 0 5px $shadow-color;
+
+/*
+  Text colors
+ */
+$text-color:            $white;       // deprecated. Use $text-body instead.
+$text-body:             $text-color;
+$text-gray:             #969da6;
+
+$text-color-map: (
+  primary:              $brand-primary,
+  secondary:            $brand-secondary,
+  body:                 $text-body,
+  gray:               $text-gray,
+  green:              $color-success,
+  success:              $color-success,
+  red:                $color-error,
+  error:                $color-error,
+  warning:              $color-warning
+);
+
+//=====================================
+//
+//				COLOR_COMPONENTS
+//
+//=====================================
+// Tags
+$tag-text-color:        $text-body;
+$tag-bg-color:          $brand-light;
+$tag-bullet:            $color-bg-body;
+// Buttons
+$button-bg-color:       #64829f; // default color for buttons
+$button-text-color:     $text-body; // default color for buttons
+$button-border-color:   $color-bg-body;
+$button-border-radius:  2em;
+// Forms
+$form-bg-color:               $brand-light;
+$form-text-color:             $text-body;
+// Loading spinner
+$loading-spinner-bg:          $white;
+// Tables
+$table-bg-color:        $brand-light;
+$table-header-bg-color: $color-bg-body;
+$table-text-color:      $text-body;
+
+//=====================================
+//
+//        CUSTOM_VARIABLES
+//
+//=====================================
+
+
+
+
+
+
+
+
+
+
+
+//=====================================
+//
+//        IMPORT_VARIABLES-ELEMENTS
+//
+//=====================================
+//       BOOTSTRAP GRID SYSTEM CONFIG
+@import 'variables/bootsrap-config.scss';
+//       TYPOGRAPHY
+@import 'variables/typography.scss';
+//       Social colors\TEXT-color map
+@import 'variables/social_and_text_color-map.scss';
+//       BUTTON-SIZES
+@import 'variables/button-sizes.scss';
+//       DIV-CONTAINERS
+@import 'variables/div-containers.scss';
+//       PAGINATOR
+@import 'variables/paginator.scss';
+//       RAITING
+@import 'variables/raiting.scss';
+//       BADGES
+@import 'variables/badges.scss';
+
+//
+// @import 'variables/ ';
+//
+// @import 'variables/ ';

@@ -1,0 +1,73 @@
+//=====================================
+//
+//				HEADER
+//
+//=====================================
+/*
+	VARIABLES_HEADER
+*/
+
+
+
+
+
+/*
+	STYLES_HEADER
+ */
+/*
+	Header
+*/
+header {
+	height: 210px;
+  background-color: $color-bg-header;
+  .information-block {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 35px;
+    padding: 20px;
+
+    .logo {
+      color: $brand-dark;
+      font-size: 58px;
+      font-weight: bold;
+    }
+    .information-for-magazine {
+      border: 2px solid $brand-primary;
+      border-radius: 10px;
+      padding: 10px;
+      color: $brand-dark;
+      font-weight: bold;
+      background-color: rgba(91, 192, 222, 0.1);;
+    }
+  }
+  /*
+  Navigation
+  */
+  nav {
+    list-style-type: none;
+    background-color: $color-bg-nav;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+
+    ul {
+      height: 80px;
+    }
+
+    li {
+      display: inline-block;
+      margin-left: 30px;
+    }
+    a {
+      display: block;
+      padding-right: 5px;
+      text-decoration: none;
+      color: $brand-primary;
+      font-size: 20px;
+    }
+    a:hover {
+      text-decoration: none;
+      color: $color-info;
+    }
+  }
+}

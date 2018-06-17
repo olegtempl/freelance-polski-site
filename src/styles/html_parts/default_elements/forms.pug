@@ -1,0 +1,160 @@
+section.section
+    h2.text-md  Forms
+    .row
+        .col-xs-12.col-md-6
+            label.label(for='name') Name
+            .input
+                input#name(placeholder='Name', type='text')
+        .col-xs-12.col-md-6
+            label.label(for='name_error') Name
+            .input.error
+                input#name_error(placeholder='Name', type='text')
+            p.text-error.text-xs $error message
+    .row
+        .col-xs-12.col-md-6
+            label.label(for='address') Address
+            .input.full-width
+                input#address(placeholder='Address', type='text')
+        .col-xs-12.col-md-6
+            label.label(for='address_error') Address
+            .input.error.full-width
+                input#address_error(placeholder='Address', type='text')
+            p.text-error.text-xs $error message
+    .row
+        .col-xs-12.col-md-6
+            label.label(for='country-code') Country
+            .select.full-width
+                select#country-code(name='country-code')
+                    option Afghanistan
+                    option Albania
+                    option Algeria
+                    option American Samoa
+                    option Andorra
+                    option Angola
+                i.fa.fa-angle-down.fa-2
+        .col-xs-12.col-md-6
+            label.label(for='country-code-error') Country
+            .select.full-width.error
+                select#country-code-error(name='country-code-error')
+                    option Afghanistan
+                    option Albania
+                    option Algeria
+                    option American Samoa
+                    option Andorra
+                    option Angola
+                i.fa.fa-angle-down.fa-2
+            p.text-error.text-xs $error message
+    .row
+        .col-xs-12.col-md-6
+            label.label(for='message') Message
+            textarea#message.textarea
+        .col-xs-12.col-md-6
+            label.label(for='message-error') Message
+            textarea#message-error.textarea.error
+            p.text-error.text-xs $error message
+    .row
+        .col-xs-6.col-md-3
+            h3.text-sm.text-gray Radio buttons
+            .radio
+                input#radio1(name='radio', type='radio', value='')
+                label(for='radio1') Radio button 1
+            .radio
+                input#radio2(name='radio', type='radio', value='')
+                label(for='radio2') Radio button 2
+            .radio
+                input#radio3(name='radio', type='radio', value='')
+                label(for='radio3') Radio button 3
+        .col-xs-6.col-md-3
+            h3.text-sm.text-gray Checkboxes
+            .checkbox
+                input#checkbox1(name='keywords', type='checkbox', value='')
+                label(for='checkbox1') Checkbox 1
+            .checkbox
+                input#checkbox2(name='keywords', type='checkbox', value='')
+                label(for='checkbox2') Checkbox 2
+            .checkbox
+                input#checkbox3(name='keywords', type='checkbox', value='')
+                label(for='checkbox3') Checkbox 3
+    h3.text-sm.text-gray Form row
+    .row
+        .col-xs-12.col-md-6
+            .row.form-row
+                .col-xs-12.col-md-4
+                    .input.input-with-icon.full-width
+                        input#name(placeholder='Your name', type='text')
+                        i.input-icon.fa.fa-th.fa-2
+                .col-xs-12.col-md-4
+                    .input.input-with-icon.full-width
+                        input#search(placeholder='Search', type='text')
+                        i.input-icon.fa.fa-cog.fa-spin
+                .col-xs-12.col-md-4
+                    .input.input-with-icon.full-width
+                        input#search(placeholder='Search', type='text')
+                        button.input-icon.fa.fa-search.fa-lg
+        .col-xs-12.col-md-6
+            .row.form-row
+                .col-xs-12.col-md-4
+                    .input.input-with-icon.full-width
+                        input#name(placeholder='Date', type='text')
+                        i.input-icon.fa.fa-calendar
+                .col-xs-12.col-md-4
+                    .input.input-with-icon.full-width
+                        input#name(placeholder='Username', type='text')
+                        i.input-icon.fa.fa-user
+                .col-xs-12.col-md-4
+                    .input.input-with-icon.full-width
+                        input#name(placeholder='Password', type='text')
+                        i.input-icon.fa.fa-lock
+    h3.text-sm.text-gray Form collapse
+    .row
+        .col-xs-12.col-md-6
+            .form-collapse
+                .input.item.item-main
+                    input#name(placeholder='Klingon search', type='text')
+                .select.item
+                    select#country-code(name='country-code')
+                        option One
+                        option Two
+                        option Three
+                        option Four
+                    i.fa.fa-angle-down.fa-2
+                button.item.button.button-primary
+                    | Search
+        .col-xs-12.col-md-6
+            .form-collapse
+                .input.item.item-main
+                    input#name(placeholder='Klingon search', type='text')
+                button.item.button.button-primary
+                    i.fa.fa-search.fa-lg   
+    .row
+        .col-xs-12.col-md-6
+            .form-collapse
+                .select.item
+                    select#country-code(name='country-code')
+                        option Vincent
+                        option Jules
+                        option Mia 
+                        option Butch
+                        option Winston 
+                    i.fa.fa-angle-down.fa-2
+                .select.item
+                    select#country-code(name='country-code')
+                        option Mr. White
+                        option Mr. Orange
+                        option Mr. Pink
+                        option Mr. Blonde
+                        option Nice Guy
+                        option Mr. Brown
+                        option Marvin
+                        option Holdaway
+                        option Mr. Blue
+                    i.fa.fa-angle-down.fa-2
+                .select.item
+                    select#country-code(name='country-code')
+                        option Shaw 
+                        option Kelly
+                        option Doyle 
+                        option Lt. William
+                        option Singleton
+                        option Billie
+                    i.fa.fa-angle-down.fa-2
