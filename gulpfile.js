@@ -145,7 +145,7 @@ gulp.task('pug', function () {
 		.pipe(plumber({errorHandler: onError}))
 		.pipe(pug({pretty: true}))
 		.pipe(gulp.dest(path.build.html))			  // output html
-        .pipe(reload({stream: true}));
+    .pipe(reload({stream: true}));
 });
 // scss > сss
 gulp.task('sass', function () {
