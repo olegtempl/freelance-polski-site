@@ -1,14 +1,47 @@
-include templates/head.pug
-  body
-    //- header
-    header
-			include templates/header.pug
-    //- main content
-    main
-      iframe(src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2046.5155049809803!2d-86.50409776187239!3d30.384607792200004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88867f341f4bfe75%3A0x5e55343553c8cce9!2z0JDQu9Cw0LHQsNC80LAsINCh0KjQkA!5e0!3m2!1sru!2sru!4v1522169392895', width='450', height='450', frameborder='0', style='border:0', allowfullscreen='')
-    //- footer
-    footer	
-      include templates/footer.pug
-    //- jQuery 
-    script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js')
-    //- script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js', integrity='sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7', crossorigin='anonymous')
+include ./templates/head
+
+	header
+		include ./templates/header
+	//- main content
+	main
+		.contacts-wrap.container
+			.google-map
+				iframe(src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2046.5155049809803!2d-86.50409776187239!3d30.384607792200004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88867f341f4bfe75%3A0x5e55343553c8cce9!2z0JDQu9Cw0LHQsNC80LAsINCh0KjQkA!5e0!3m2!1sru!2sru!4v1522169392895', width='450', height='450', frameborder='0', style='border:0', allowfullscreen='')
+			.aside
+				h2.text-md.text-primary How to find us
+				.address
+					h3.text-sm.text-primary Our address
+					p Our store can be found at:
+						|  United States
+						|  Alabama
+						|  Big street, 9
+				.contacts
+					h3.text-sm.text-primary Our contact information
+					p If you want to contact us, you can do this in the following ways:
+					p.text-xs.text-primary Phone number: 	+380975054709
+					p.text-xs.text-primary Gmail: 	thatshop@gmail.com
+					p.text-xs.text-primary Skype: 	thatshop@skype
+					p.text-xs.text-primary Viber: 	+380975054709
+				h3.text-sm We working every day
+					span.text-sm.text-primary   8:00 - 20:00
+		.place-order
+			h1.text-md.text-primary.align-center If you want to place an order, please fill out the following form
+			.container-sm
+				.form_box
+					form.rf(action='#', method='post')
+						label(for='user_name') Your name:
+						input#user_name.rfield(type='text')
+						label(for='user_family') Your order:
+						input#user_family.rfield(type='text')
+						label(for='user_phone')  Your phone number:
+						input#user_phone.rfield(type='text')
+						label(for='user_work') Your email:
+						input#user_work.rfield(type='email')
+						input.btn_submit.disabled(type='submit', value='Ordering')
+	//- jQuery
+	script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js')
+	script(src='js/requiredFields.js')
+
+	//- footer
+	footer
+		include ./templates/footer
