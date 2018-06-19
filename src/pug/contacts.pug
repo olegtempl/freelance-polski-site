@@ -29,14 +29,14 @@ include ./templates/head
 			.container-sm
 				.form_box
 					form.rf(action='#', method='post')
-						label(for='user_name') Your name:
-						input#user_name.rfield(type='text')
-						label(for='user_family') Your order:
-						input#user_family.rfield(type='text')
-						label(for='user_phone')  Your phone number:
-						input#user_phone.rfield(type='text')
-						label(for='user_work') Your email:
-						input#user_work.rfield(type='email')
+						label(for='user_name').text-gray Your name:
+						input#user_name.rfield(type='text', placeholder='michail')
+						label(for='user_family').text-gray Your order:
+						input#user_family.rfield(type='text', placeholder='mobile phone, backpack')
+						label(for='user_phone').text-gray  Your phone number:
+						input#user_phone.rfield(type='text', placeholder='+380985604431')
+						label(for='user_work').text-gray Your email:
+						input#user_work.rfield(type='email', placeholder='obbservation@gmail.com')
 						input.btn_submit.disabled(type='submit', value='Ordering')
 	//- jQuery
 	script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js')
