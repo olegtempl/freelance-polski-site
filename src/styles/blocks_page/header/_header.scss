@@ -1,19 +1,3 @@
-//=====================================
-//
-//				HEADER
-//
-//=====================================
-/*
-	VARIABLES_HEADER
-*/
-
-
-
-
-
-/*
-	STYLES_HEADER
- */
 /*
 	Header
 */
@@ -28,16 +12,21 @@ header {
 
     .logo {
       color: $brand-dark;
-      font-size: 58px;
+      font-size: 3.63em;
       font-weight: bold;
     }
     .information-for-magazine {
       border: 2px solid $brand-primary;
       border-radius: 10px;
-      padding: 10px;
+      padding: 4px;
       color: $brand-dark;
       font-weight: bold;
-      background-color: rgba(91, 192, 222, 0.1);;
+      background-color: rgba(91, 192, 222, 0.1);
+      p {
+        span {
+          color: $brand-primary;
+        }
+      }
     }
   }
   /*
@@ -63,7 +52,7 @@ header {
       padding-right: 5px;
       text-decoration: none;
       color: $brand-primary;
-      font-size: 20px;
+      font-size: 125%;
     }
     a:hover {
       text-decoration: none;

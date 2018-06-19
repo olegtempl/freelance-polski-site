@@ -1,16 +1,3 @@
-//=====================================
-//
-//				FOOTER
-//
-//=====================================
-/*
-		VARIABLES_FOOTER
-*/
-
-
-
-
-
 /*
 		STYLES_FOOTER
 */
@@ -28,8 +15,9 @@ footer {
     justify-content: center;
     align-items: center;
      p {
-        font-size: 24px;
+        font-size: 150%;
+        color: $brand-primary;
     }
   }
-
 }
+

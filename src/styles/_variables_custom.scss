@@ -4,17 +4,24 @@
 //
 //=====================================
 //      background-colors_blocks_in_page
+/*
+#A9F5D0
+#5882FA - синии ( слишком светлый )
+*/
+
+
+$test-color: #2E64FE;
 //  body
 $color-bg-body:                 #dee6ea;
 //  header
-$color-bg-header:               #2e4865;
-$color-bg-nav:                  #2e4865;
-//  sidebar
+$color-bg-header:               $test-color;
 $color-bg-sidebar:              #2e4865;
+$color-bg-nav:                  $test-color;
+//  sidebar
 //  main
 $color-bg-main:                 #2e4865;
 //  footer
-$color-bg-footer:               #2e4865;
+$color-bg-footer:               $test-color;
 //=====================================
 //
 //				BRAND_COLORS
